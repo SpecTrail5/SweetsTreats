@@ -1,1 +1,1 @@
-# SweetsTreats.com
+# SweetsTreats.github.io

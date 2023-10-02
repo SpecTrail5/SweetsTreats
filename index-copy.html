@@ -7,6 +7,12 @@
     <link rel="shortcut icon"
         href="https://github.com/SpecTrail5/SpecTrail5.github.io/blob/main/images/website-logo-v2.png?raw=true">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
     <style>
         body {
             background: linear-gradient(rgb(78, 78, 78), rgb(0, 0, 0));
@@ -100,99 +106,22 @@
             animation: spin 30s infinite;
 
         }
-
-        .btn-primary {
-            background: #0d6efd;
-            color: white;
-            width: 75px;
-            height: 30px;
-            border: #0d6efd;
-            border-radius: 10px;
-        }
-
-        .btn-secondary {
-            background: #6c757d;
-            color: white;
-            width: 75px;
-            height: 30px;
-            border: #6c757d;
-            border-radius: 10px;
-        }
-
-        .btn-success {
-            background: #198754;
-            color: white;
-            width: 75px;
-            height: 30px;
-            border: #198754;
-            border-radius: 10px;
-        }
-
-        .btn-danger {
-            background: #dc3545;
-            color: white;
-            width: 75px;
-            height: 30px;
-            border: #dc3545;
-            border-radius: 10px;
-        }
-
-        .btn-warning {
-            background: #ffc107;
-            color: black;
-            width: 75px;
-            height: 30px;
-            border: #ffc107;
-            border-radius: 10px;
-        }
-
-        .btn-info {
-            background: #0dcaf0;
-            color: black;
-            width: 75px;
-            height: 30px;
-            border: #0dcaf0;
-            border-radius: 10px;
-        }
-
-        .btn-light {
-            background: #f8f9fa;
-            color: black;
-            width: 75px;
-            height: 30px;
-            border: #f8f9fa;
-            border-radius: 10px;
-        }
-
-        .btn-dark {
-            background: #212529;
-            color: white;
-            width: 75px;
-            height: 30px;
-            border: #212529;
-            border-radius: 10px;
-        }
-
-        .btn-link {
-            background: transparent;
-            color: var(link);
-            width: 75px;
-            height: 30px;
-            border: transparent;
-            border-radius: 10px;
-        }
     </style>
 
 </head>
 
 <body>
     <div id="all-contents">
-        <nav>
+        <nav aria-label="breadcrumb">
             <img id="nav-img"
                 src="https://github.com/SpecTrail5/SpecTrail5.github.io/blob/main/images/website-logo-v2.png?raw=true">
             <h1>SpecTrail5's Random Website</h1>
 
+
             <ul id="nav-ul">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Home</li>
+                </ol>
                 <li class="nav-li">
                     <a href="index.html">Home</a>
 
@@ -211,14 +140,21 @@
                     <a href="animation.html">animations</a>
 
                 </li>
-            </ul>
-        </nav>
 
+
+
+            </ul>
+
+        </nav>
+        <!--https://thumb.modcdn.io/mods/6085/929625/thumb_1020x2000/logo.1.png?/-->
         <main>
+
+
 
             <!--side bar/-->
             <div class="sidebar">
                 <h2 class="h2">Home</h2>
+
 
             </div>
 
@@ -229,19 +165,26 @@
 
                 <!-- Interests section -->
 
+
                 <div id="interests">
-                    <button type="button" class="btn-primary">Primary</button>
-                    <button type="button" class="btn-secondary">Secondary</button>
-                    <button type="button" class="btn-success">Success</button>
-                    <button type="button" class="btn-danger">Danger</button>
-                    <button type="button" class="btn-warning">Warning</button>
-                    <button type="button" class="btn-info">Info</button>
-                    <button type="button" class="btn-light">Light</button>
-                    <button type="button" class="btn-dark">Dark</button>
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-secondary">Secondary</button>
+                    <button type="button" class="btn btn-success">Success</button>
+                    <button type="button" class="btn btn-danger">Danger</button>
+                    <button type="button" class="btn btn-warning">Warning</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-light">Light</button>
+                    <button type="button" class="btn btn-dark">Dark</button>
 
-                    <button type="button" class="btn-link">Link</button>
+                    <button type="button" class="btn btn-link">Link</button>
+
+
+
                 </div>
+                <li id="secret">
+                    <a href="secret/secret.html">Secret</a>
 
+                </li>
             </div>
         </main>
     </div>
